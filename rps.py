@@ -22,7 +22,7 @@ try:
         elif(user == "score"):
             print(f"Win : {score['win']}\nLoss : {score['loss']}\nDraw : {score['draw']}")
         elif(user == 'exit'):
-            raise EOFError
+            quit()
         else:
             pass
 except EOFError:
